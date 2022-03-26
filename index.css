@@ -1,0 +1,437 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    font-family: 'Poppins', sans-serif;
+}
+/* phan nav bar */
+.nav-head{
+    padding: 10px 90px;
+    background-color: white;
+    display: flex;
+    box-shadow: 5px 5px 10px grey;;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    top:0;
+}
+
+.navbar li:first-child{
+    opacity: 0.5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 10px;
+
+}
+
+.navbar li{
+    list-style: none;
+    
+}
+
+/* phan chuyen muc */
+
+.advertise{
+    margin-top: 100px;
+    padding: 40px 10px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:3px dotted rgb(155, 155, 155);
+}
+
+/* chuyen muc trai  */
+
+.img-left{
+    width: 50%;
+}
+.img-left img{
+    width: 100%;
+    height: 93%;
+    position: relative;
+}
+
+.desc{
+    position: absolute;
+    top: 45%;
+    left: 9%;
+    color: white;
+
+}
+
+.desc h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.desc p{
+    margin-bottom: 50px;
+}
+
+.desc a{
+    text-decoration: none;
+    color:white;
+    padding:10px 20px;
+    border: 1px solid;
+    transition: all 0.5s;
+}
+
+.desc a:hover{
+    background-color: white;
+    color: black;
+}
+/* chuyen muc phai  */
+.img-right{
+    width: 50%;
+    display:inline-flex;
+    flex-wrap:wrap;
+}
+
+.desc-img{
+    position:relative;
+}
+
+.desc-img > img{
+    width: 270px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.first{
+    position:absolute;
+    z-index: 1;
+    top:30%;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+
+.first h1{
+    margin-bottom: 20px;
+
+}
+
+
+/* Men's Lastest */
+
+.men{
+    margin-top: 30px;
+    padding: 30px 70px;
+    border-bottom:3px dotted rgb(155, 155, 155);
+
+}
+
+.sub-title h1{
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+
+.sub-title p{
+    opacity:0.5;
+}
+
+.men-clo {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.men-clo li{
+    list-style: none;
+}
+
+.men-clo li img{
+    width: 370px;
+    margin:0 10px;
+}
+
+.men-clo li h3{
+    margin: 10px 10px ;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.men-clo li p{
+    margin: 10px 10px;
+    opacity: 0.5;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* women lastest */
+
+.women{
+    margin-top: 30px;
+    padding: 30px 70px;
+    border-bottom:3px dotted rgb(155, 155, 155);
+}
+
+/* kid lastest */
+.kid{
+    margin-top: 30px;
+    padding: 30px 70px;
+    border-bottom:3px dotted rgb(155, 155, 155);
+}
+
+/* Explore Our Products */
+.explore{
+    margin-top:30px;
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px dotted rgb(155, 155, 155);
+}
+
+.content{
+    width: 45%;
+}
+
+.content p{
+    font-size: 15px;
+    margin:40px 0;
+    opacity: 0.3;
+    font-weight: 600;
+    line-height: 20px;
+}
+.content p:nth-child(3){
+    opacity: 1;
+    margin-left:40px;
+}
+
+.content p > a{
+    text-decoration: none;
+}
+
+.content a.btn{
+    text-decoration: none;
+    padding:10px 20px;
+    border: 1px solid;
+    color:  black;
+    transition: all 0.5s;
+}
+
+.content a.btn:hover{
+    color: white;
+    background-color:rgb(155, 155, 155);
+}
+
+.products{
+    width: 50%;
+}
+
+.img-product{
+    float:left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.img-product:first-child,
+.img-product:last-child{
+    padding: 101px 36px;
+    text-align:center;
+    background-color:#f8f8f8;
+}
+
+.img-product:last-child{
+    padding: 101px 30px;
+}
+.img-product:first-child p,
+.img-product:last-child p{
+    opacity:0.3;
+    margin-top:10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.img-product:first-child h1,
+.img-product:last-child h1{
+    font-size: 30px;
+}
+
+/* Social Media */
+.social{
+    padding:70px 70px;
+    border-bottom:3px dotted rgb(155, 155, 155)
+}
+
+.social-img{
+    margin-top: 70px;
+}
+
+.pic li{
+    display:inline;
+    margin:0 -5px;
+}
+
+.pic li img{
+    width: calc(100% / 6);
+}
+
+/* contact */
+.contact{
+    padding: 70px 70px;
+    display: flex;
+}
+
+.infor{
+    width: 66%;
+}
+
+.form{
+    margin-top: 30px;
+}
+
+.form input{
+    width: 300px;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+
+.form a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 5px;
+    border-radius: 5px;
+}
+
+.address{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infor-left{
+    margin-right: 50px;
+}
+
+.infor-left p,
+.infor-right p{
+    margin-top: 10px;
+    opacity:0.5;
+    font-weight:700;
+    width: 120px;
+}
+
+.infor-left h1,
+.infor-right h1{
+    font-weight: 700;
+}
+
+.information{
+    font-size:10px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background: #2a2a2a;
+    padding: 70px 70px;
+    display: flex;
+}
+.footer a,
+.footer h3{
+    text-decoration: none;
+    color: white;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.contact1 img{
+    margin-bottom: 30px;
+}
+
+.contact1 li a{
+    line-height:1.5;
+}
+
+.link li{
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+.contact1{
+    margin-right:50px;
+}
+
+.contact2{
+margin-right: 70px;
+}
+
+.contact2 h3{
+    margin-bottom: 30px;
+}
+
+.contact2 li{
+    margin-bottom: 20px;
+}
+
+.contact3{
+    margin-right: 100px;
+}
+
+.contact3 h3{
+    margin-bottom: 30px;
+}
+
+.contact3 li{
+    margin-bottom: 20px;
+}
+
+.contact4 h3{
+    margin-bottom: 30px;
+}
+
+.contact4 li{
+    margin-bottom: 20px;
+}
+
+.footer a{
+    transition: color 0.5s;
+}
+
+.footer a:hover{
+    color: #aaa;
+}
+
+.contact-footer{
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 40px 0 ;
+    color: white;
+    border-top: 1px solid 
+}
+
+.contact-footer p{
+    margin-bottom: 10px;
+    opacity:0.8;
+}
+
+.contact-footer a{
+    text-decoration: none;
+    color:#cff;
+    transition: color 0.5s;
+}
+
+.contact-footer a:hover{
+    color: #c66;
+}
